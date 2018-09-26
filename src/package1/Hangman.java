@@ -12,20 +12,18 @@ public class Hangman {
 
 	
 
-	public static int x = 5;
+	public  static int x = 5;
 	
-public static int NUMBER_OF_BAD_GUESSES_BEFORE_DEATH = (x);
+public  static int NUMBER_OF_BAD_GUESSES_BEFORE_DEATH = (x);
 public static void main(String args[]) 
 
-
-	
 	{
 		System.out.println("you have this many trys left:");
-System.out.println(NUMBER_OF_BAD_GUESSES_BEFORE_DEATH);
+		System.out.println(NUMBER_OF_BAD_GUESSES_BEFORE_DEATH);
 
 
 //If not solved
-//get imput from user
+//get input from user
 Scanner in = new Scanner(System.in);
 
 {
@@ -36,21 +34,23 @@ Scanner in = new Scanner(System.in);
     //Prompt user to guess letter
     temp=keyboard.next();
     c=temp.toCharArray();
-     
+    
+   
     }
 
 //Apply guess to game
 
 	}
 
-
-	
  
  // Present game state (Mask = replace chars of word no guesses with asterisk)
 
+public void mark()
+{
 
-
+	System.out.println(NUMBER_OF_BAD_GUESSES_BEFORE_DEATH);
 	
 	
 
 } 
+}
