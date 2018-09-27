@@ -7,9 +7,7 @@ public class Hangman {
 
 
 
-	private static String[] words = {"dog", "cat", "java", "cow", "window", "berlin" };
 	
-
 	
 
 	public  static int x = 5;
