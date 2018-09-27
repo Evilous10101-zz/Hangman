@@ -16,8 +16,8 @@ public  static int NUMBER_OF_BAD_GUESSES_BEFORE_DEATH = (x);
 public static void main(String args[]) 
 
 	{
-		System.out.println("you have this many trys left:");
-		System.out.println(NUMBER_OF_BAD_GUESSES_BEFORE_DEATH);
+		
+		System.out.println("you have this many letters you can get wrong before you lose: " +  NUMBER_OF_BAD_GUESSES_BEFORE_DEATH);
 
 
 //If not solved
