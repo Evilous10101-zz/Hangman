@@ -27,10 +27,10 @@ Scanner in = new Scanner(System.in);
 {
     char [] c;
     String temp;
-    Scanner keyboard = new Scanner(System.in);
+    Scanner bee = new Scanner(System.in);
     System.out.println("Please guess any letter");
     //Prompt user to guess letter
-    temp=keyboard.next();
+    temp=bee.next();
     c=temp.toCharArray();
     
    
