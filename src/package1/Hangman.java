@@ -13,7 +13,8 @@ public class Hangman {
 	public  static int x = 5;
 	
 public  static int NUMBER_OF_BAD_GUESSES_BEFORE_DEATH = (x);
-public static void main(String args[]) 
+public static void main(String args[]) {
+System.out.println("Hello! You are playing hangman please hold while we gather some data");
 
 	{
 		
@@ -31,10 +32,11 @@ Scanner in = new Scanner(System.in);
     System.out.println("Please guess any letter");
     //Prompt user to guess letter
     temp=bee.next();
-    c=temp.toCharArray();
+    c=temp.toCharArray(); } 
+}
     
    
-    }
+    
 
 //Apply guess to game
 
