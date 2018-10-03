@@ -9,9 +9,9 @@ public class Hangman {
     private  String word = cat;
     public String mask;
     
-	
+    
 		
-	
+    
 	
 	public static int x = 5;
 	 
@@ -29,11 +29,13 @@ System.out.println("Hello! You are playing hangman please hold while we gather s
 //If not solved
 	
 //get input from user
- }
+ 
 		Scanner in = new Scanner(System.in);
-		public void hangman()
+		
+		 {
+		
 {
-	
+		
 	
 	//Prompt user to guess letter
     char [] c;
@@ -42,18 +44,25 @@ System.out.println("Hello! You are playing hangman please hold while we gather s
     System.out.println("Please guess any letter");
     temp=bee.next();
     c=temp.toCharArray();
-    
+}
     if(NUMBER_OF_BAD_GUESSES_BEFORE_DEATH > 0) {
     	
     System.out.println("I am sorry you got that letter wrong. You have this many guesses left: " + NUMBER_OF_BAD_GUESSES_BEFORE_DEATH);
-    break; hangman();
+   
    
     }
+  
+    	
+    
     else {
-    	System.out.println("You beat the game, good job");
-    	 System.exit(0);
+    	System.out.println("You lost please play again");
+    	 System.exit(0); 
+    
     }
-     } 
+		 } 
+ }
+    
+     
 
 	
  
@@ -71,7 +80,7 @@ System.out.println("Hello! You are playing hangman please hold while we gather s
 public void mark()
 {
 	System.out.println(word);
-	
+	 
 }
 }
 
