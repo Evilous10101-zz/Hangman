@@ -26,18 +26,18 @@ System.out.println("Hello! You are playing hangman please hold while we gather s
 		
 	}
 
-//If not solved
-	
-//get input from user
+
  
 		Scanner in = new Scanner(System.in);
-		
+		hang5:
 		 {
-		
+			 
 {
-		
+	//If not solved
 	
-	//Prompt user to guess letter
+	//get input from user
+	
+	//Prompts user to guess letter
     char [] c;
     String temp;
     Scanner bee = new Scanner(System.in);
@@ -46,18 +46,17 @@ System.out.println("Hello! You are playing hangman please hold while we gather s
     c=temp.toCharArray();
 }
     if(NUMBER_OF_BAD_GUESSES_BEFORE_DEATH > 0) {
-    	
+    	//I want it to remove a number from NUMBER_OF_BAD_GUESSES_BEFORE_DEATH so it can reach zero
     System.out.println("I am sorry you got that letter wrong. You have this many guesses left: " + NUMBER_OF_BAD_GUESSES_BEFORE_DEATH);
-   
+    //goes back to hang5
+   break hang5;
    
     }
   
-    	
-    
     else {
     	System.out.println("You lost please play again");
     	 System.exit(0); 
-    
+    //Kills the game when lost
     }
 		 } 
  }
