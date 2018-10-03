@@ -27,8 +27,6 @@ System.out.println("Hello! You are playing hangman please hold while we gather s
 		
 	}
 
-	
- 
 		Scanner in = new Scanner(System.in);
 		
 		hang5:
@@ -54,9 +52,10 @@ System.out.println("Hello! You are playing hangman please hold while we gather s
     	//I want it to remove a number from NUMBER_OF_BAD_GUESSES_BEFORE_DEATH so it can reach zero and then goes back to the hang5
     System.out.println("I am sorry you got that letter wrong. You have this many guesses left: " + NUMBER_OF_BAD_GUESSES_BEFORE_DEATH);
     //goes back to hang5
+    
    break hang5;  
    
-    	}
+    	} 
     }
     	 else {
     	    	System.out.println("You lost please play again");
@@ -64,15 +63,8 @@ System.out.println("Hello! You are playing hangman please hold while we gather s
     	    	 System.exit(0); 
     	    //Kills the game when lost
     	    }
-    	
     }
-    
-    
-  
-   
 		 } 
-		 
-		 
  }
 
     
